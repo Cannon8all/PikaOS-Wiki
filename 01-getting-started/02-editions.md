@@ -1,7 +1,4 @@
 # Editions
-
-## Select a desktop environment
-
 The desktop environment is what the desktop and graphical environment looks like. Every edition gets the same PikaOS base. Choose a familiar desktop experience or jump straight into a modern tiling workflow.
 
 ### GNOME
