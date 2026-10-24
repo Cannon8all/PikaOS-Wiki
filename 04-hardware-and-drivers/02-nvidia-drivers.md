@@ -5,8 +5,8 @@
 ### For Nvidia GPUs
 
 - Choose between:
-  - **Nvidia Open** (open-source kernel modules, GTX 16-series and newer)
-  - **Nvidia Closed**: _TODO: two-line "why Open" note (wording needed)_
+  - **Nvidia Open**: open-source kernel modules, GTX 16-series and newer)
+  - **Nvidia Closed**: Nvidia maxwell and older (Legacy Nvidia drivers) 
 - Users who prefer the fully open-source **Nouveau** driver can uninstall Nvidia profiles and use Mesa profiles instead.
 
 All profiles default to the latest non-experimental drivers.
