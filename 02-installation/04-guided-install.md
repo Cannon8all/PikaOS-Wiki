@@ -327,21 +327,6 @@ Once you've confirmed all details:
 
 ---
 
-## Installation Progress Tracking
-
-### What Happens During Installation
-
-| Phase | Duration | Description |
-| :--- | :---: | :--- |
-| **Partitioning** | 1-3 min | Disk layout created based on your choices |
-| **Filesystem Creation** | 2-5 min | Format partitions with selected filesystem |
-| **Package Installation** | 10-20 min | Core system packages copied to disk |
-| **Configuration** | 2-5 min | System setup, bootloader installation |
-| **Completion** | <1 min | Final checks and reboot prompt |
-
-> 💡 **Tip:** Total time varies by hardware speed. SSDs typically complete in 15-20 minutes; HDDs may take 30-45 minutes.
-
----
 
 ## Related Guides
 
