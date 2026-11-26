@@ -36,8 +36,6 @@
 2. **Right-click and shrink your C: volume**
 
    Free up space for PikaOS. Decide how much space you want to dedicate to PikaOS and shrink the volume by that amount.
-
-_In the example below we shrunk the `C:` drive 50GB for PikaOS and is now an Unallocated partition_
 3. Close the partition manager and **shut down Windows**.
 4. Boot into your **PikaOS live USB/medium**.
 
@@ -47,15 +45,7 @@ _In the example below we shrunk the `C:` drive 50GB for PikaOS and is now an Una
 
 ### Required BIOS Settings
 
-Before installing, make sure your BIOS/UEFI is configured correctly:
-
-| Setting | Value |
-| :--- | :--- |
-| Secure Boot | **Disabled** for best compatibility with Windows games that need it, or **Enabled** if you plan to use [PikaOS Secure Boot](../07-guides/04-secure-boot.md) later (Windows will still boot fine) |
-| CSM (Compatibility Support Module) | **Disabled** |
-| Boot Mode | UEFI (must be enabled) |
-
-> 🔒 **Note about Secure Boot:** If you enable Secure Boot in your firmware, you can later set it up on PikaOS using the [pika-secureboot](../07-guides/04-secure-boot.md) package. This allows Linux gaming and anti-cheat systems to work properly while keeping Windows games secure.
+Before installing, make sure your BIOS/UEFI is configured correctly
 
 Once set, boot into your PikaOS live medium.
 
@@ -99,9 +89,6 @@ Click **Apply**. The installer will write files and install the bootloader.
 When complete, reboot into your new system!
 
 ---
-
-
-## Dual-Boot Tips
 
 ### Boot Order
 
