@@ -27,12 +27,6 @@
   - [Issue: System updates fail or hang](#issue-system-updates-fail-or-hang)
   - [Issue: Graphics display issues after reboot](#issue-graphics-display-issues-after-reboot)
 - [Related Guides](#related-guides)
-- [Quick Reference: First Day Tasks](#quick-reference-first-day-tasks)
-  - [Immediate (Within 1 Hour of Installation)](#immediate-within-1-hour-of-installation)
-  - [Within First Week](#within-first-week)
-- [Recommended Tools to Install](#recommended-tools-to-install)
-- [Security Considerations](#security-considerations)
-  - [Immediate Post-Installation Security Steps](#immediate-post-installation-security-steps)
 - [Congratulations!](#congratulations)
 
 ---
@@ -276,38 +270,7 @@ After completing initial setup, explore these topics in order:
 
 ---
 
-## Quick Reference: First Day Tasks
 
-### Immediate (Within 1 Hour of Installation)
-- [ ] System updates completed (`pikman upgrade`)
-- [ ] Welcome app configuration finished
-- [ ] Essential applications installed
-- [ ] Desktop environment customized
-
-### Within First Week
-- [ ] Backup solution configured and tested
-- [ ] Gaming setup complete (if applicable)
-- [ ] Development tools installed (if needed)
-- [ ] Advanced features explored via Welcome app
-
-## Security Considerations
-
-### Immediate Post-Installation Security Steps
-
-1. **Enable firewall** (if not already active):
-   ```bash
-   sudo systemctl enable --now firewalld
-   ```
-
-2. **Configure automatic security updates**:
-   - Via Welcome app or system settings
-   - Set to install critical updates automatically
-
-3. **Review installed applications** — Remove any unnecessary software that could pose security risks
-
-> 💡 **Tip:** For most home users, default security settings are sufficient. Enterprise environments may require additional hardening measures.
-
----
 
 ## Congratulations!
 
