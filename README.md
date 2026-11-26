@@ -1,6 +1,6 @@
 # PikaOS Documentation
 
-**PikaOS is a gaming-focused Linux distribution built on Debian Sid.** It ships with the latest drivers, kernel, and gaming tools out of the box — so you can play Windows games immediately without spending hours configuring your system.
+**PikaOS is a gaming-focused Linux distribution built on Debian Sid.** It ships with the latest drivers, kernel, and gaming tools out of the box so you can play Windows games immediately without spending hours configuring your system.
 
 This wiki covers installation, setup, drivers, gaming, and troubleshooting. Choose a path below based on what you need, or browse the full documentation at the bottom.
 
