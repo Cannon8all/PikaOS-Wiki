@@ -218,6 +218,15 @@ If that fails, follow [Access Terminal on Black Screen](#access-terminal-on-blac
 
 ---
 
+## Reinstall rEFInd when a BIOS update accidentally removes it.
+BIOS updates can sometimes clear the NVRAM entries, which removes rEFInd from the boot menu. To reinstall it, run:
+
+>`sudo refind-install`
+
+If you can't boot into your installed system, chroot from a live ISO first using the How to Chroot guide.
+[Chrooting from a Live ISO in PikaOS](https://wiki.pika-os.com/en/guides-wiki/Chrooting-from-a-Live-ISO-in-PikaOS)
+
+
 ## Additional Support
 
 You can always ask for further advice on the [`PikaOS Discord`](https://discord.gg/Ky4tUXkMZE).
